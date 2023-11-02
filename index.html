@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple layout</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        body{
+            background-color: aliceblue;
+        }
+        nav ul li{
+            list-style: none;
+            padding: 20px;
+        }
+        nav ul{
+            display: flex;
+        }
+        nav{
+            background-color: aqua;
+            width: 100%;
+            position: fixed;
+        }
+        .boxes{
+            display: flex;
+            padding-top: 40px;
+        }
+        .box{
+            background-color: aquamarine;
+            margin: 5vw;
+            height: 80vh;
+            width: 45vw;
+        }
+        .downbox{
+            /* height: 20vh; */
+            width: 80vw;
+            /* margin: 20px 0px 0px 10vw; */
+            border-radius: 3vw;
+            background-color: pink;
+            text-align:center;
+            padding: 10vh 0px;
+            margin: auto;
+            margin-bottom: 30px;
+            font-size: 25px;
+        }
+        footer div{
+            height: 50px;
+            background-color: aqua;
+        }
+        .circle{
+            height: 70px;
+            width: 70px;
+            border-radius: 50px;
+            background-color: rgb(255, 238, 0);
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="boxes">
+        <div class="box"></div>
+        <div class="box"></div>
+
+    </div>
+
+    <div class="downbox">I am Mr Labbrow😀</div>
+
+    <footer>
+        <div ></div>
+    </footer>
+
+    <div class="circle"></div>
+    
+</body>
+</html>
